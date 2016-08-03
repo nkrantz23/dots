@@ -1,0 +1,19 @@
+# personal
+export MY_AWS_KEY=''
+export MY_AWS_SECRET=''
+export MY_AWS_REGION=''
+export MY_DOCKER_USER=''
+export MY_DOCKER_PASSWORD=''
+export MY_DOCKER_EMAIL=''
+
+# aws, docker
+export AWS_ACCESS_KEY_ID=$MY_AWS_KEY
+export AWS_SECRET_ACCESS_KEY=$MY_AWS_SECRET
+export AWS_REGION=$MY_AWS_REGION
+export DOCKER_USER=$MY_DOCKER_USER
+export DOCKER_PASSWORD=$MY_DOCKER_PASSWORD
+export DOCKER_EMAIL=$MY_DOCKER_EMAIL
+
+# terraform
+export TF_VAR_aws_key=$AWS_ACCESS_KEY_ID
+export TF_VAR_aws_secret=$AWS_SECRET_ACCESS_KEY
