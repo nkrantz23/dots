@@ -5,6 +5,7 @@ export MY_AWS_REGION=''
 export MY_DOCKER_USER=''
 export MY_DOCKER_PASSWORD=''
 export MY_DOCKER_EMAIL=''
+export MY_GITHUB_API_TOKEN=''
 
 # aws, docker
 export AWS_ACCESS_KEY_ID=$MY_AWS_KEY
@@ -17,3 +18,6 @@ export DOCKER_EMAIL=$MY_DOCKER_EMAIL
 # terraform
 export TF_VAR_aws_key=$AWS_ACCESS_KEY_ID
 export TF_VAR_aws_secret=$AWS_SECRET_ACCESS_KEY
+
+# github
+export GITHUB_API_TOKEN=$MY_GITHUB_API_TOKEN

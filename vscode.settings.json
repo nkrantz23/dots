@@ -1,0 +1,44 @@
+{
+  "editor.formatOnSave": true,
+  "window.zoomLevel": 1,
+  "editor.tabSize": 4,
+  "editor.insertSpaces": true,
+  "editor.detectIndentation": false,
+  "terminal.integrated.env.osx": "zsh",
+  "git.autofetch": true,
+  "git.enableSmartCommit": true,
+  "gitProjectManager.baseProjectsFolders": [
+    "~/Projects"
+  ],
+  "sync.gist": "0c4ce8a08b606e0087f0592aca30aeb7",
+  "sync.quietSync": false,
+  "sync.askGistName": false,
+  "sync.removeExtensions": true,
+  "sync.syncExtensions": true,
+  "sync.autoDownload": false,
+  "sync.autoUpload": false,
+  "sync.forceDownload": false,
+  "[javascript]": {
+    "editor.tabSize": 2
+  },
+  "[json]": {
+    "editor.tabSize": 2
+  },
+  "[html]": {
+    "editor.tabSize": 2
+  },
+  "[erb]": {
+    "editor.tabSize": 2
+  },
+  "[ruby]": {
+    "editor.tabSize": 2
+  },
+  "ruby.format": "rubocop",
+  "ruby.rubocop.executePath": "/Users/nate/.rbenv/shims/",
+  "files.associations": {
+    "Dockerfile*": "dockerfile"
+  },
+  "python.linting.pylintArgs": [
+    "--load-plugins=pylint_django"
+  ]
+}
